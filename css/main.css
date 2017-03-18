@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600i,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,700,900');
+
+body{
+	/*font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;*/
+	background: #eeeeee;
+	width: 1200px;
+	max-width: 100%;
+	margin: 0 auto;
+	height: 100%;
+}
+
+.product{
+	margin-top: 50px;
+}
+
+.man{
+	font-family: 'Roboto', sans-serif;
+	float: left;
+	margin: 0;
+	width: 60%;
+	font-size: 48px;
+	line-height: 27px;
+}
+
+nav{
+	display: inline-block;
+	text-align: center;
+	width: 40%;
+	padding: 0;
+	margin: 0 auto;
+}
+
+li{
+	display: inline-block;
+	font-size: 18px;
+	line-height: 27px;
+	width: 30%;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+}
+
+/*.black{
+	float: left;
+	word-wrap: break-word;
+	width: 615px;
+	height: 260px;
+}
+
+.spblack{
+	font-size: 150px;
+	line-height: 150px;
+	word-wrap: break-word;
+}*/
+
+.black{
+	font-family: 'Raleway', sans-serif;
+	font-size: 150px;
+	line-height: 150px;
+	width: 615px;
+	height: 260px;
+	word-wrap: break-word;
+	float: left;
+	margin: 125px 103px 53px 0;
+	text-align: right;
+}
+
+.lorem{
+	width: 574px;
+	height: 93px;
+	word-wrap: break-word;
+	font-size: 24px;
+	line-height: 36px;
+	margin-left: 43px;
+	text-align: right;
+	box-sizing: border-box;
+}
+
+.view_1{
+	font-family: 24px;
+	line-height: 36px;
+	color: red;
+	margin-left: 470px;
+	margin-top: 32px;
+	margin-right: 103px;
+	width: 145px;
+	text-align: right;
+}
