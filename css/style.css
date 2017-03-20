@@ -1,23 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,600i,900');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,700,900');
-@font-face {
-  font-family: 'icomoon';
-  src:  url('../../fonts/icomoon.eot?wxz2mr');
-  src:  url('../../fonts/icomoon.eot?wxz2mr#iefix') format('embedded-opentype'),
-    url('../../fonts/icomoon.ttf?wxz2mr') format('truetype'),
-    url('../../fonts/icomoon.woff?wxz2mr') format('woff'),
-    url('../../fonts/icomoon.svg?wxz2mr#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('../../fonts/icomoon.eot?7h7t2l');
-  src:  url('../../fonts/icomoon.eot?7h7t2l#iefix') format('embedded-opentype'),
-    url('../../fonts/icomoon.ttf?7h7t2l') format('truetype'),
-    url('../../fonts/icomoon.woff?7h7t2l') format('woff'),
-    url('../../fonts/icomoon.svg?7h7t2l#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?3ub6f5');
+  src:  url('../fonts/icomoon.eot?3ub6f5#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?3ub6f5') format('truetype'),
+    url('../fonts/icomoon.woff?3ub6f5') format('woff'),
+    url('../fonts/icomoon.svg?3ub6f5#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -37,56 +27,32 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-play_arrow:before {
+  content: "\e903";
+}
+.icon-mail:before {
+  content: "\e902";
+}
+.icon-twitter:before {
+  content: "\e900";
+}
+.icon-youtube:before {
+  content: "\e901";
+}
 .icon-vk:before {
   content: "\e300";
+}
+.icon-menu:before {
+  content: "\e9bd";
 }
 .icon-facebook:before {
   content: "\ea90";
 }
-.icon-twitter:before {
-  content: "\ea96";
-}
-.icon-youtube2:before {
-  content: "\ea9e";
-}
-.icon-linkedin:before {
-  content: "\eac9";
-}
-
-
-
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-vk:before {
-  content: "\e300";
-}
-
-.icon-menu{
- display: inline-block;
- padding-right: 0;
- font-family: 18px;
-}
-
-.icon-menu:before {
-  content: "\e9bd";
-}
 
 html,body{
-	width: 1230px;
+	max-width: 1230px;
 	margin: 0 auto;
+	color: #303030;
 }
 
 body{
@@ -156,6 +122,7 @@ textarea {
 	width: 59%;
 	text-decoration: none;
 	margin: 0;
+	color: #303030;
 }
 
 .head{
@@ -166,8 +133,9 @@ textarea {
 	padding: 0;
 }
 
-.icon-menu{
-	font-size: 18px;
+.head a{
+	text-decoration: none;
+	color: #303030;
 }
 
 ul{
@@ -181,7 +149,6 @@ ul li{
 }
 
 li{
-	/*margin: 0 15px;*/
 	text-decoration: none;
 	color: black;
 }
@@ -211,7 +178,8 @@ h2{
 
 .white{
 	display: inline-block;
-	width: 100%
+	width: 100%;
+	color: #303030;
 }
 
 .headphones{
@@ -247,17 +215,17 @@ h2{
 }
 
 .ba-header{
-	/*margin-bottom: 300px;*/
+
 }
 
 /*main*/
 
 .featured{
 	display: inline-block;
-	width: 585px;
-	margin-left: 308px;
 	margin-bottom: 78px;
 	text-align: center;
+	width: 1230px;
+	margin: 0 auto;
 }
 
 .product{
@@ -268,7 +236,7 @@ h2{
 }
 
 .first{
-	width: 1230px;
+	max-width: 1230px;
 	margin: 0 auto;
 	margin-bottom: 172px;
 	background: white;
@@ -280,16 +248,18 @@ h2{
 	font-size: 18px;
 	line-height: 24px;
 	font-family: 'Raleway', sans-serif;
-	margin: 0;
+	width: 550px;
+	margin: auto;
+	margin-bottom: 77px;
 }
 
 .second{
-	margin-bottom: 118px;
+	margin-bottom: 66px;
 }
 
 .middle{
 	display: inline-block;
-	width: 100%;
+	max-width: 100%;
 	margin: 0;
 	vertical-align: top;
 	text-align: center;
@@ -346,9 +316,10 @@ h2{
 
 .news{
 	display: inline-block;
-	width: 585px;
-	margin-left: 308px;
 	text-align: center;
+	width: 1230px;
+	margin: 0 auto;
+
 }
 
 .productman-news{
@@ -362,39 +333,110 @@ h2{
 	font-size: 18px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600i;
+	width: 550px;
+	margin: auto;
 	margin-bottom: 42px;
+
 }
 
 .input{
-	width: 100%;
-	display: inline-block;
+	position: relative;
+	max-width: 1230px;
+	margin: 0 auto;
 	text-align: center;
 }
 
-input{
-	width: 50%;
-	border-radius: 15px;
-	margin-bottom: 15px;
+input[type="text"]{
+	width: 704px;
+	height: 70px;
+	background: white;
 	border: none;
 	font-size: 18px;
-	line-height: 25px;
+	color: #979797;
+	padding-left: 70px;
+	border-radius: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600i;
+}
+
+.input .icon-mail{
+	position: absolute;
+	margin-left: 30px;
+	margin-top: 27px;
+	z-index: 1;
+	color: #979797;
+	font-size: 18px;
+}
+
+.subs{
+	color: white;
+	text-transform: uppercase;
+	background: red;
+	height: 70px;
+	border: none;
+	font-size: 18px;
+	font-weight: 900;
+	-webkit-border-top-right-radius: 50px;
+	-webkit-border-bottom-right-radius: 50px;
+	-moz-border-radius-topright: 50px;
+	-moz-border-radius-bottomright: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	width: 206px;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-right: 260px;
+}
+
+.input:hover button.subs, 
+.input:active button.subs, 
+.input:focus button.subs{
+	opacity: 1;
 }
 
 .icon{
 	display: inline-block;
 	text-align: center;
 	width: 100%;
-	margin-top: 128px;
+	margin-top: 109px;
 	margin-bottom: 0;
 	font-size: 34px;
+}
+
+.icon a{
+	text-decoration: none;
+	color: #979797;
+}
+
+.icon a:hover{
+	color: red;
+}
+
+.icon-block{
+	display: inline-block;
+	background: white;
+	height: 71px;
+	width: 71px;
+	border-radius: 70px;
+	padding-top: 19px;
+	margin-right: 19px;
 }
 
 /*footer*/
 
 .ba-footer{
 	display: inline-block;
-	width: 585px;
-	margin-left: 308px;
 	text-align: center;
 	margin-bottom: 20px;
+	width: 1230px;
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	color: #303030;
+}
+
+.company{
+	color: black;
 }
